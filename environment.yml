@@ -1,0 +1,23 @@
+name: pytorchbook
+channels:
+  - conda-forge
+  - pytorch
+  - dglteam
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - matplotlib
+  - scikit-learn
+  - jupyter
+  - jupyterlab
+  - pytorch>=2.2.1
+  - torchvision>=0.17.1
+  - torchtext
+  - opencv
+  - librosa
+  - nb_conda_kernels
+  - pip:
+    - torchviz
+    - tensorboard
+    - jupyter-server-proxy
